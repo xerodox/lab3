@@ -1,9 +1,9 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
-langcode: en
-uuid: 54ccea2c-047e-4595-a41c-4da6c01358f5
-name: 'EW Training Sandbox'
-mail: admin@example.com
+langcode: es
+uuid: a6f17635-edf9-4dfe-9296-ed1017c22f5a
+name: Lab3
+mail: xerodoxxd@gmail.com
 slogan: ''
 page:
   403: ''
@@ -11,4 +11,4 @@ page:
   front: /node
 admin_compact_mode: false
 weight_select_max: 100
-default_langcode: en
+default_langcode: es

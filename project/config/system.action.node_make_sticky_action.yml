@@ -1,5 +1,5 @@
-uuid: 62bf0b32-d272-4b59-87fc-6dd7ef3a2dfa
-langcode: en
+uuid: 4a0c097e-b680-42a4-a6f7-c71e9c196183
+langcode: es
 status: true
 dependencies:
   module:
@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: sOb26JSy3fGpWkvR0WYN6_hMqj_6d1rvbvrkzp1yya0
 id: node_make_sticky_action
-label: 'Make content sticky'
+label: 'Fijar contenido'
 type: node
 plugin: node_make_sticky_action
 configuration: {  }

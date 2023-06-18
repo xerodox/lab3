@@ -1,5 +1,5 @@
-uuid: 0e7766f1-3761-4ea6-b763-6c47ee1dfa82
-langcode: en
+uuid: 152cc839-6e92-4a5f-916f-37131dd5bb7f
+langcode: es
 status: true
 dependencies:
   config:
@@ -27,4 +27,5 @@ content:
   links:
     weight: 101
     region: content
-hidden: {  }
+hidden:
+  langcode: true
