@@ -1,0 +1,23 @@
+uuid: 264bee25-c213-4a55-a9b6-1d16f66480cb
+langcode: es
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - olivero_hijo
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: olivero_hijo_search_form_narrow
+theme: olivero_hijo
+region: primary_menu
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulario de búsqueda (estrecho)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

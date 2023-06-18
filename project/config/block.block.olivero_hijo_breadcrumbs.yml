@@ -1,0 +1,22 @@
+uuid: da8d2d4f-bb9f-4c41-890f-ffbfa5a3b9bb
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - olivero_hijo
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: olivero_hijo_breadcrumbs
+theme: olivero_hijo
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Enlaces de ayuda a la navegación'
+  label_display: '0'
+  provider: system
+visibility: {  }

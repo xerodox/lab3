@@ -1,0 +1,25 @@
+uuid: b8cd0e7a-733b-4aff-88e9-40ded263a367
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - olivero_hijo
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: olivero_hijo_site_branding
+theme: olivero_hijo
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Marca del sitio'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }
