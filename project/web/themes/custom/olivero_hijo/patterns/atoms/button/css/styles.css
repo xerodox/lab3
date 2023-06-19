@@ -1,0 +1,12 @@
+.btn{
+    padding: 1em 2em;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    border: 10px white solid;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}

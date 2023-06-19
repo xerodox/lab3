@@ -1,0 +1,19 @@
+button:
+  label: 'Button'
+  description: 'Button component'
+  fields:
+    text:
+      type: string
+      label: Button text
+      preview: 'Read more'
+    url:
+      type: url
+      label: URL
+      preview: https://google.com
+  libraries: 
+    -
+      button:
+        css: 
+          component:
+            css/styles.css: {}
+    
