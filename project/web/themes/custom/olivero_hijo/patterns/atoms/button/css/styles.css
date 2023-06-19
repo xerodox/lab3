@@ -10,3 +10,10 @@
     background-color: black;
     color: white;
 }
+
+.card{
+    padding: 1em 2em;
+    background-color: green;
+    color: white;
+    border: 2px black solid;
+}

@@ -12,8 +12,7 @@ button:
       preview: https://google.com
   libraries: 
     -
-      button:
+      card:
         css: 
           component:
             css/styles.css: {}
-    

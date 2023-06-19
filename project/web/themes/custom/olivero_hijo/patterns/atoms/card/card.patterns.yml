@@ -1,0 +1,19 @@
+card:
+  label: 'Card'
+  description: 'Card component'
+  fields:
+    title: 
+      type: string
+      label: Card text
+      preview: '*Titulo*'
+    text:
+      type: string
+      label: Card text
+      preview: 'Esta es la descripcion del card'
+  libraries: 
+    -
+      button:
+        css: 
+          component:
+            css/styles.css: {}
+    
