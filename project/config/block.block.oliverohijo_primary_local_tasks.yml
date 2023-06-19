@@ -1,0 +1,22 @@
+uuid: 025c84f3-e7d2-4fe9-9cfe-898e5b3f9f99
+langcode: es
+status: true
+dependencies:
+  theme:
+    - oliverohijo
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: oliverohijo_primary_local_tasks
+theme: oliverohijo
+region: header
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Solapas principales'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

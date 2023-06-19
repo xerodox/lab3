@@ -1,0 +1,22 @@
+uuid: a7eb4001-380d-43c3-bb36-944bbc3c4423
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - oliverohijo
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: oliverohijo_help
+theme: oliverohijo
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ayuda
+  label_display: '0'
+  provider: help
+visibility: {  }

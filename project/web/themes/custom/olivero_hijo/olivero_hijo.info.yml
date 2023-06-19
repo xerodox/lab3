@@ -1,20 +1,36 @@
 name: olivero_hijo
 type: theme
-base theme: olivero
-description: tema hijo de olivero para lab3
-package: Custom
-core_version_requirement: ^10
+'base theme': olivero
+starterkit: true
+version: VERSION
 libraries:
-  - olivero_hijo/global
+  - olivero_hijo/base
+  - olivero_hijo/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - olivero_hijo/user
+  core/drupal.dropbutton:
+    - olivero_hijo/dropbutton
+  core/drupal.dialog:
+    - olivero_hijo/dialog
+  file/drupal.file:
+    - olivero_hijo/file
+  core/drupal.progress:
+    - olivero_hijo/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.0.3'
 regions:
-  header: 'Header'
+  header: Header
   primary_menu: 'Primary menu'
   secondary_menu: 'Secondary menu'
-  page_top: 'Page top'
-  page_bottom: 'Page bottom'
-  featured: 'Featured'
-  breadcrumb: 'Breadcrumb'
-  content: 'Content'
-  sidebar_first: 'Sidebar first'
-  sidebar_second: 'Sidebar second'
-  footer: 'Footer'
+  hero: 'Hero (full width)'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  social: Social Bar
+  content_above: Content Above
+  content: Content
+  sidebar: 'Sidebar'
+  content_below: 'Content Below'
+  footer_top: 'Footer Top'
+  footer_bottom: 'Footer Bottom'

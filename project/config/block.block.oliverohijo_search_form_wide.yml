@@ -1,0 +1,23 @@
+uuid: 9ee50234-4eaf-4caa-9198-a72b92c6a435
+langcode: es
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - oliverohijo
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: oliverohijo_search_form_wide
+theme: oliverohijo
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulario de búsqueda (ancho)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

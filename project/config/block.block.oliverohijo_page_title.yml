@@ -1,0 +1,20 @@
+uuid: b9a51dff-3bfe-4b60-ab31-1aa1469c14e3
+langcode: es
+status: true
+dependencies:
+  theme:
+    - oliverohijo
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: oliverohijo_page_title
+theme: oliverohijo
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título de la página'
+  label_display: '0'
+  provider: core
+visibility: {  }
