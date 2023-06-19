@@ -1,19 +1,35 @@
 card:
-  label: 'Card'
-  description: 'Card component'
+  label: "Card"
+  description: "Card component"
   fields:
-    title: 
+    title:
       type: string
-      label: Card text
-      preview: '*Titulo*'
+      label: Title
+      description: Text
+      preview: "Preguntas frecuentes"
+    paragraph:
+      type: string
+      label: Paragraph
+      description: Text
+      preview: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s."
     text:
       type: string
       label: Card text
-      preview: 'Esta es la descripcion del card'
-  libraries: 
-    -
-      button:
-        css: 
+      description: Text
+      preview: "Ir a preguntas frecuentes"
+    url:
+      type: url
+      label: URL
+      description: Url
+      preview: https://www.google.com
+    color:
+      type: string
+      label: Card color
+      description: Card background color
+      preview: "#154d61"
+  libraries:
+    - button:
+        css:
           component:
             css/styles.css: {}
     

@@ -1,19 +1,48 @@
-.btn{
-    padding: 1em 2em;
-    background-color: transparent;
-    text-decoration: none;
+.title{
     color: white;
-    border: 10px white solid;
+    margin: 10px 0px;
+    text-transform: uppercase;
+}
+
+.p{
+    color: white;
+    line-height: 1.3em;
+}
+
+
+.btn{
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    min-height: 90px;
+    margin: auto;
+    border: 3px solid;
+    padding: 20px 35px;
+    text-align: center;
 }
 
 .btn:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: #008081;
+    border: 1px #008081 solid;
 }
 
 .card{
-    padding: 1em 2em;
+    display: flex;
+    justify-content: center;
     background-color: green;
-    color: white;
-    border: 2px black solid;
+}
+
+.left{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 40px;
+
+}
+
+.right{
+    margin: auto;
+    padding: 40px;
 }
