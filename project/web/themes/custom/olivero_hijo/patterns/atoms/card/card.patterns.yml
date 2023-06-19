@@ -11,7 +11,7 @@ card:
       type: string
       label: Paragraph
       description: Text
-      preview: "texto de relleno para previsualizar la informacion"
+      preview: "texto de relleno para previsualizar la informacion lahjdalsjl ljlajlsdjlasjljal ljalsdjlajldjal jasldjl ajdlajsldj ljljsaldjad sfsdsfsf sdfsd dfds fs fs fs fs"
     text:
       type: string
       label: Card text
