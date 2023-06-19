@@ -1,3 +1,9 @@
+.card{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(182, 0, 0);
+}
+
 .title{
     color: white;
     margin: 10px 0px;
@@ -22,16 +28,11 @@
 }
 
 .btn:hover{
-    background-color: white;
-    color: #008081;
-    border: 1px #008081 solid;
+    background-color: rgb(87, 84, 84);
+    color: white;
+    border: 3px white solid;
 }
 
-.card{
-    display: flex;
-    justify-content: center;
-    background-color: green;
-}
 
 .left{
     width: 60%;
