@@ -11,7 +11,7 @@ card:
       type: string
       label: Paragraph
       description: Text
-      preview: "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s."
+      preview: "texto de relleno para previsualizar la informacion"
     text:
       type: string
       label: Card text
@@ -28,7 +28,8 @@ card:
       description: Card background color
       preview: "#154d61"
   libraries:
-    - button:
+    -
+      card:
         css:
           component:
             css/styles.css: {}

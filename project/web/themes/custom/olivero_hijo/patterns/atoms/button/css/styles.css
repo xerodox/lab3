@@ -21,9 +21,9 @@
     color: white;
     text-decoration: none;
     min-height: 90px;
-    margin: auto;
+    margin: 10px ;
     border: 3px solid;
-    padding: 20px 35px;
+    padding: 35px;
     text-align: center;
 }
 
@@ -44,6 +44,8 @@
 }
 
 .right{
+    display: flex;
     margin: auto;
-    padding: 40px;
+    padding: 10px;
+    width: 40%;
 }
