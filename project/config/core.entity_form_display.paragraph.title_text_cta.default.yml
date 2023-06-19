@@ -1,0 +1,41 @@
+uuid: 8f4ba3a6-17ed-4032-95cc-b33366f13330
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.title_text_cta.field_color
+    - field.field.paragraph.title_text_cta.field_link
+    - field.field.paragraph.title_text_cta.field_texto
+    - paragraphs.paragraphs_type.title_text_cta
+  module:
+    - link
+id: paragraph.title_text_cta.default
+targetEntityType: paragraph
+bundle: title_text_cta
+mode: default
+content:
+  field_color:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_link:
+    type: link_default
+    weight: 1
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_texto:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
