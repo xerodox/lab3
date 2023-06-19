@@ -1,0 +1,34 @@
+uuid: 1c0b659a-3c46-430b-8b30-a0e25f10e3c8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.contenido_en_dos_columnas.field_parrafoderecha
+    - field.field.paragraph.contenido_en_dos_columnas.field_parrafoizquierda
+    - paragraphs.paragraphs_type.contenido_en_dos_columnas
+  module:
+    - entity_reference_revisions
+id: paragraph.contenido_en_dos_columnas.default
+targetEntityType: paragraph
+bundle: contenido_en_dos_columnas
+mode: default
+content:
+  field_parrafoderecha:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_parrafoizquierda:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

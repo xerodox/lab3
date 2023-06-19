@@ -1,0 +1,32 @@
+uuid: f0bd3ec5-737c-445c-8a48-b2865070fa88
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_parrafoderecha
+    - paragraphs.paragraphs_type.contenido_en_dos_columnas
+  module:
+    - entity_reference_revisions
+id: paragraph.contenido_en_dos_columnas.field_parrafoderecha
+field_name: field_parrafoderecha
+entity_type: paragraph
+bundle: contenido_en_dos_columnas
+label: parrafoDerecha
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    negate: 0
+    target_bundles_drag_drop:
+      contenido_en_dos_columnas:
+        weight: 3
+        enabled: false
+      title_text_cta:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions
