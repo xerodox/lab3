@@ -4,11 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.title_text_cta.field_color
-    - field.field.paragraph.title_text_cta.field_link
     - field.field.paragraph.title_text_cta.field_texto
+    - field.field.paragraph.title_text_cta.field_titulo
     - paragraphs.paragraphs_type.title_text_cta
   module:
-    - link
     - options
 id: paragraph.title_text_cta.default
 targetEntityType: paragraph
@@ -22,18 +21,6 @@ content:
     third_party_settings: {  }
     weight: 2
     region: content
-  field_link:
-    type: link
-    label: above
-    settings:
-      trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: ''
-      target: ''
-    third_party_settings: {  }
-    weight: 1
-    region: content
   field_texto:
     type: string
     label: above
@@ -41,5 +28,13 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 0
+    region: content
+  field_titulo:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
     region: content
 hidden: {  }

@@ -49,13 +49,10 @@
 {% block paragraph %}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      {{ pattern('card', {
-        color: '#154d62',
-        url: '/node',
-        title: 'Preguntas frecuentes',
-        paragraph: 'esto es el parrafo descriptivo',
-        text: 'Ir a preguntas frecuentes',
-        
+      {{ pattern('card',{
+        title: paragraph.field_titulo.0.value,
+        text: paragraph.field_texto.0.value,
+        color: 'rojo',
       }) }}
     {% endblock %}
   </div>

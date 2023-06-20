@@ -7,21 +7,11 @@ card:
       label: Title
       description: Text
       preview: "Preguntas frecuentes"
-    paragraph:
-      type: string
-      label: Paragraph
-      description: Text
-      preview: "texto de relleno para previsualizar la informacion lahjdalsjl ljlajlsdjlasjljal ljalsdjlajldjal jasldjl ajdlajsldj ljljsaldjad sfsdsfsf sdfsd dfds fs fs fs fs"
     text:
       type: string
       label: Card text
       description: Text
-      preview: "Ir a preguntas frecuentes"
-    url:
-      type: url
-      label: URL
-      description: Url
-      preview: https://www.google.com
+      preview: "texto de relleno para previsualizar la informacion lahjdalsjl ljlajlsdjlasjljal ljalsdjlajldjal jasldjl ajdlajsldj ljljsaldjad sfsdsfsf sdfsd dfds fs fs fs fs"
     color:
       type: string
       label: Card color

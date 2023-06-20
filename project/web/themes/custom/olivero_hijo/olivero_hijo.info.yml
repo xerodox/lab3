@@ -7,6 +7,7 @@ libraries:
   - olivero_hijo/base
   - olivero_hijo/messages
   - core/normalize
+  - olivero_hijo/font-awesome
 libraries-extend:
   user/drupal.user:
     - olivero_hijo/user

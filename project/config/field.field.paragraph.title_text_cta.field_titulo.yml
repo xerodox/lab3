@@ -1,23 +1,19 @@
-uuid: 9e50d306-e33a-4ffd-9638-9c2ce7cb4755
+uuid: f96bb1c3-ae6f-4d3c-a06c-6a4b70a33ce0
 langcode: es
 status: true
 dependencies:
   config:
-    - field.storage.paragraph.field_link
+    - field.storage.paragraph.field_titulo
     - paragraphs.paragraphs_type.title_text_cta
-  module:
-    - link
-id: paragraph.title_text_cta.field_link
-field_name: field_link
+id: paragraph.title_text_cta.field_titulo
+field_name: field_titulo
 entity_type: paragraph
 bundle: title_text_cta
-label: Link
+label: Titulo
 description: ''
 required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings:
-  title: 2
-  link_type: 17
-field_type: link
+settings: {  }
+field_type: string
