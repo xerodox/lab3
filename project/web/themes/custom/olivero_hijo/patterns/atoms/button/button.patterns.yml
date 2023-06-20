@@ -5,7 +5,7 @@ button:
     text:
       type: string
       label: Button text
-      preview: 'Read more'
+      preview: "Ir a preguntas frecuentes"
     url:
       type: url
       label: URL

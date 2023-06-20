@@ -6,7 +6,6 @@ dependencies:
     - field.field.paragraph.title_text_cta.field_color
     - field.field.paragraph.title_text_cta.field_link
     - field.field.paragraph.title_text_cta.field_texto
-    - field.field.paragraph.title_text_cta.field_titulo
     - paragraphs.paragraphs_type.title_text_cta
   module:
     - link
@@ -32,14 +31,6 @@ content:
   field_texto:
     type: string_textfield
     weight: 0
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_titulo:
-    type: string_textfield
-    weight: 3
     region: content
     settings:
       size: 60

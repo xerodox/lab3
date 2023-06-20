@@ -6,7 +6,6 @@ dependencies:
     - field.field.paragraph.title_text_cta.field_color
     - field.field.paragraph.title_text_cta.field_link
     - field.field.paragraph.title_text_cta.field_texto
-    - field.field.paragraph.title_text_cta.field_titulo
     - paragraphs.paragraphs_type.title_text_cta
   module:
     - link
@@ -42,13 +41,5 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 0
-    region: content
-  field_titulo:
-    type: string
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 3
     region: content
 hidden: {  }
